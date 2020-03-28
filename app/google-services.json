@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "274496841845",
+    "firebase_url": "https://fir-authentication-d8680.firebaseio.com",
+    "project_id": "fir-authentication-d8680",
+    "storage_bucket": "fir-authentication-d8680.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274496841845:android:3ecdc32853768cf291b03c",
+        "android_client_info": {
+          "package_name": "com.eldisprojectexpert.firebaseauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274496841845-joi48sur35noo093at3l5lvs065620l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRDm2UL0pFadwuvgyYLcKfjxPyBAHi2JM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274496841845-joi48sur35noo093at3l5lvs065620l5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
