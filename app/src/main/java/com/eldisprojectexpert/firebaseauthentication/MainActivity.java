@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         initializeUI();
         firebaseAuth = FirebaseAuth.getInstance();
+
     }
 
     private void initializeUI(){
@@ -47,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         progressBarLogin = findViewById(R.id.progressbar_login);
         textViewSignUp.setOnClickListener(this);
         buttonLogin.setOnClickListener(this);
-        textViewForgotPassword = findViewById(R.id.textView5);
+        textViewForgotPassword = findViewById(R.id.textViewForgotPassword);
         textViewForgotPassword.setOnClickListener(this);
     }
 
@@ -88,8 +89,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                        }
                    }
                });
+           break;
 
-            case R.id.textView5 :
+            case R.id.textViewForgotPassword :
                 final EditText editTextEmailForgotPassword = new EditText(v.getContext());
                 AlertDialog.Builder alertDialogForgotPassword = new AlertDialog.Builder(v.getContext());
                 alertDialogForgotPassword.setTitle("Reset Password ?");
@@ -125,6 +127,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 //implement it
                 alertDialogForgotPassword.create().show();
+                break;
+
 
         }
     }
